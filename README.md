@@ -29,15 +29,15 @@ Projeto Java simples para controle de contas mensais via terminal, utilizando Sp
 ## 🗂️ Estrutura do Projeto
 
 src/
-├── main/
-│ ├── java/
-│ │ └── br/com/controlefinanceiro/
-│ │ ├── Main.java
-│ │ ├── model/
-│ │ ├── repository/
-│ │ └── service/
-│ └── resources/
-│ ├── application.properties
+-├── main/
+-│ ├── java/
+-│ │ └── br/com/controlefinanceiro/
+-│ │ ├── Main.java
+-│ │ ├── model/
+-│ │ ├── repository/
+-│ │ └── service/
+-│ └── resources/
+-│ ├── application.properties
 
 yaml
 Copiar
