@@ -48,7 +48,7 @@ bash
 git clone https://github.com/seu-usuario/controle-financeiro.git
 cd controle-financeiro
 
-- 2. Suba o MySQL via Docker (se ainda não tiver)
+- 2 ➡️ Suba o MySQL via Docker (se ainda não tiver)
 bash
 docker run --name cursosql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=cursosql -e MYSQL_USER=leo -e MYSQL_PASSWORD=1234 -p 3306:3306 -d mysql:8.0
 (opcional) Acesse o banco com phpMyAdmin:
@@ -56,14 +56,14 @@ docker run --name cursosql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=cursosq
 bash
 docker run --name pma_cursosql --link cursosql:db -p 8088:80 -d phpmyadmin
 
-- 3. Configure o application.properties
+- 3 ➡️ Configure o application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/cursosql
 spring.datasource.username=leo
 spring.datasource.password=###
 spring.jpa.hibernate.ddl-auto=none
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 
-- 4. Execute o projeto
+- 4 ➡️ Execute o projeto
 Você pode rodar diretamente pela IDE (IntelliJ, Eclipse) ou via terminal:
 
 bash
